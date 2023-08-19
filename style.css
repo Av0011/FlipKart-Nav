@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    border: 0;
+    margin: 0;
+}
+
+nav{
+    background-color: #2874F0;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    align-items: center;
+
+}
+
+.logo p{
+    font-size: 11px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.logo p span{
+    color:#D9D12A;
+    font-weight: 900;
+}
+
+
+.search{
+    background-color:white;
+    width: 400px;
+    height: 20px;
+    padding: 8px;
+    margin: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    color: #2874F0;
+    border-radius: 2px;
+    box-shadow: -7px -7px 10px rgba(0, 0, 0, 0.1), 7px 7px 10px rgba(0, 0, 0, 0.1);;
+}
+
+.search input{
+    width: 90%;
+    height: 100%;
+    outline: none; 
+    border: none;
+}
+
+.login_btn{
+    font-size: 16px;
+    font-weight: 550;
+    padding: 7px 30px;
+    border: none;
+    outline: none;
+    color: #2874F0;
+    background-color: white;
+    gap: 2rem;
+
+
+}
+
+
+
+.nav_links{
+    margin: 0 20px;
+    padding: 0px 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+.angle_down{
+    font-size: 10px;
+}
+
+.cart{
+    font-size: 15px;
+    padding: 0px 5px;
+}
+
+
+/* NAV Image Sections */
+
+.image_section{
+    display: flex;
+    justify-content: center;
+    height: 110px;
+    /* background-color: #D9D12A; */
+    border-bottom: 1px solid #cccc;
+
+}
+
+.image_text{
+    width: 80px;
+    cursor: pointer;
+    flex: 1;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.image_text img{
+    height: 64px;
+    width: 64px;
+    /* margin: 0; */
+}
+
+
+.image_text p{
+    margin: 0;
+    font-weight: 510;
+    font-size: 15px;
+    /* font-family: sans-serif; */
+    /* text-align: center; */
+}
+
+.image_text p:hover{
+    color: #2874F0;
+}
